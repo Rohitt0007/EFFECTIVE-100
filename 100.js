@@ -1,5 +1,14 @@
-let a = 10;
-let b = 20;
+// let a = 10;
+// let b = 20;
 
-let sum = a + b;
-console.log(`a + b = ${sum}`);
+// let sum = a + b;
+// console.log(`a + b = ${sum}`);
+
+// Print the messege along with values and sum
+// 	Ex - The sum of 45 & 12  = 57
+
+let num1 = 45;
+let num2 = 12;
+
+let sum = num1 + num2;
+console.log(`The sum of ${num1} & ${num2} = ${sum}`)
