@@ -39,7 +39,8 @@
 // ******************************************************************
 // ******************************************************************
 
-// 6-
+//  6- Accept two numbers from user and swap their values
+//                 Part 2 - Swap without using third variable
 
  let e = 12;
  let f = 8;
