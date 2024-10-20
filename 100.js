@@ -42,42 +42,46 @@
 //  6- Accept two numbers from user and swap their values
 //                 Part 2 - Swap without using third variable
 
- let e = 12;
- let f = 8;
+//  let e = 12;
+//  let f = 8;
 
- let c = e;
+//  let c = e;
 
- e = f;
+//  e = f;
 
-  f = c;
-console.log(`${e} ${f}`) 
+//   f = c;
+// console.log(`${e} ${f}`) 
 
 // without using third variable
 
 
-let a = 12;
-let b = 5;
+// let a = 12;
+// let b = 5;
 
-a = a + b;
+// a = a + b;
 
-b = a - b;
+// b = a - b;
 
-a = a - b; 
+// a = a - b; 
 
-console.log(a,b)
+// console.log(a,b)
 
 
 // *************************************************************
 // *************************************************************
 
-// 
+//7. Accept the length and width of a rectangle. Calculate & print the area and perimiter.
 
+let length = +prompt("Enter number");
+let width = +prompt("Enter number");
 
+let area = length * width;
 
+let perimiter = 2*(length + width);
 
+console.log(area);
 
-
-
+console.log(perimiter)
 
 
 
