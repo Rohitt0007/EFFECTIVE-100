@@ -106,15 +106,28 @@
 
 // 9- Accept the three sides of triangle and calculate the area using herons formula.
 
-let a = +prompt("Enter side");
-let b = +prompt("Enter side");
-let c = +prompt("Enter side");
+// let a = +prompt("Enter side");
+// let b = +prompt("Enter side");
+// let c = +prompt("Enter side");
 
-let paremeter = (a + b + c)/2
+// let paremeter = (a + b + c)/2
 
-let area = Math.sqrt(paremeter*(paremeter - a)*(paremeter - b)*(paremeter - c));
+// let area = Math.sqrt(paremeter*(paremeter - a)*(paremeter - b)*(paremeter - c));
 
-console.log(area);
+// console.log(area);
+
+// 10- Find surface area of sphere
+
+let redius = +prompt("Enter number");
+
+let sArea = 4 * Math.PI * Math.pow(redius, 2)
+
+console.log(sArea)
+
+
+
+
+
 
 
 
