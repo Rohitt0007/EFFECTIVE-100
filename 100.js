@@ -72,16 +72,41 @@
 
 //7. Accept the length and width of a rectangle. Calculate & print the area and perimiter.
 
-let length = +prompt("Enter number");
-let width = +prompt("Enter number");
+// let length = +prompt("Enter number");
+// let width = +prompt("Enter number");
 
-let area = length * width;
+// let area = length * width;
 
-let perimiter = 2*(length + width);
+// let perimiter = 2*(length + width);
 
-console.log(area);
+// console.log(area);
 
-console.log(perimiter)
+// console.log(perimiter)
+
+// *************************************************************************
+// *************************************************************************
+
+// 8- Accept the parameters and calculate the Compound Interest & print it on STDOUT (Use Math class methods)
+
+let principle = +prompt("Enter number"); 
+let rate = +prompt("Enter rate ");
+let number = +prompt("Enter how many time in one year interest");
+let time = +prompt("Enter time") 
+
+let amount = Math.pow((1+rate/number),number*time)*principle;
+
+let ci = amount - principle;
+
+console.log(amount.toFixed(2));
+console.log(ci.toFixed(2));
+
+
+
+
+
+
+
+
 
 
 
