@@ -88,20 +88,33 @@
 
 // 8- Accept the parameters and calculate the Compound Interest & print it on STDOUT (Use Math class methods)
 
-let principle = +prompt("Enter number"); 
-let rate = +prompt("Enter rate ");
-let number = +prompt("Enter how many time in one year interest");
-let time = +prompt("Enter time") 
+// let principle = +prompt("Enter number"); 
+// let rate = +prompt("Enter rate ");
+// let number = +prompt("Enter how many time in one year interest");
+// let time = +prompt("Enter time") 
 
-let amount = Math.pow((1+rate/number),number*time)*principle;
+// let amount = Math.pow((1+rate/number),number*time)*principle;
 
-let ci = amount - principle;
+// let ci = amount - principle;
 
-console.log(amount.toFixed(2));
-console.log(ci.toFixed(2));
+// console.log(amount.toFixed(2));
+// console.log(ci.toFixed(2));
 
 
+//**********************************************************************
+//**********************************************************************
 
+// 9- Accept the three sides of triangle and calculate the area using herons formula.
+
+let a = +prompt("Enter side");
+let b = +prompt("Enter side");
+let c = +prompt("Enter side");
+
+let paremeter = (a + b + c)/2
+
+let area = Math.sqrt(paremeter*(paremeter - a)*(paremeter - b)*(paremeter - c));
+
+console.log(area);
 
 
 
