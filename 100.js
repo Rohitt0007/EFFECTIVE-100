@@ -118,11 +118,28 @@
 
 // 10- Find surface area of sphere
 
-let redius = +prompt("Enter number");
+// let redius = +prompt("Enter number");
 
-let sArea = 4 * Math.PI * Math.pow(redius, 2)
+// let sArea = 4 * Math.PI * Math.pow(redius, 2)
 
-console.log(sArea)
+// console.log(sArea);
+
+//11. Find circumference and area of circle
+
+let radius = +prompt("Enter number");
+
+let circu = 2*Math.PI*radius
+
+let area = Math.PI*radius*radius;
+// let area = Math.PI*Math.pow(radius,2);
+
+console.log(circu.toFixed(2));
+console.log(area.toFixed(2));
+
+
+
+
+
 
 
 
