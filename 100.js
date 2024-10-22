@@ -126,17 +126,26 @@
 
 //11. Find circumference and area of circle
 
-let radius = +prompt("Enter number");
+// let radius = +prompt("Enter number");
 
-let circu = 2*Math.PI*radius
+// let circu = 2*Math.PI*radius
 
-let area = Math.PI*radius*radius;
-// let area = Math.PI*Math.pow(radius,2);
+// let area = Math.PI*radius*radius;
+// // let area = Math.PI*Math.pow(radius,2);
 
-console.log(circu.toFixed(2));
-console.log(area.toFixed(2));
+// console.log(circu.toFixed(2));
+// console.log(area.toFixed(2));
 
+// 12- Accept two numbers and print the greatest between them
 
+let a = +prompt("Enter number");
+let b = +prompt("Enter number");
+
+if(a > b ){
+    console.log("a is greater than b", a);
+}else if(b > a){
+    console.log("b is greater than a", b);
+}
 
 
 
