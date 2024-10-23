@@ -138,16 +138,24 @@
 
 // 12- Accept two numbers and print the greatest between them
 
-let a = +prompt("Enter number");
-let b = +prompt("Enter number");
+// let a = +prompt("Enter number");
+// let b = +prompt("Enter number");
 
-if(a > b ){
-    console.log("a is greater than b", a);
-}else if(b > a){
-    console.log("b is greater than a", b);
+// if(a > b ){
+//     console.log("a is greater than b", a);
+// }else if(b > a){
+//     console.log("b is greater than a", b);
+// }
+
+//13- Accept the gender from the user as char and print the respective greeting message
+//       Ex - Good Morning Sir (on the basis of gender)
+
+let gender = prompt("Enter your gender");
+if(gender == "m" || gender == "M"){
+    console.log("Good morning Sir");
+}else if(gender == "f" || gender == "F"){
+    console.log("Good morning MaM")
 }
-
-
 
 
 
