@@ -196,26 +196,41 @@
 
 // 17- Accept a day number between 1-7 and print the corresponding dayname.
 
-let day = +prompt("Enter days");
-if(day == 1){
-    console.log("Monday")
-}else if(day == 2){
-    console.log("Tuesday")
-}else if(day == 3){
-    console.log("Wednesday")
-}else if(day == 4){
-    console.log("Thursday")
-}else if(day == 5){
-    console.log("Friday")
-}else if(day == 6){
-    console.log("Satturday")
-}else if(day == 7){
-    console.log("Sunday")
+// let day = +prompt("Enter days");
+// if(day == 1){
+//     console.log("Monday")
+// }else if(day == 2){
+//     console.log("Tuesday")
+// }else if(day == 3){
+//     console.log("Wednesday")
+// }else if(day == 4){
+//     console.log("Thursday")
+// }else if(day == 5){
+//     console.log("Friday")
+// }else if(day == 6){
+//     console.log("Satturday")
+// }else if(day == 7){
+//     console.log("Sunday")
+// }else{
+//     console.log("Enter valid number")
+// }
+
+
+// 18- Accept three numbers and print the greatest among them
+
+let a = +prompt("Enter number A");
+let b = +prompt("Enter number B");
+let c = +prompt("Enter number C");
+
+if(a > b && a > c){
+    console.log(`A is greater than B & C`);
+}else if(b > a && b > c){
+    console.log(`B is greater than A & C`);
+}else if(c > a && c > b){
+    console.log(`C is greater than A & B`);
 }else{
-    console.log("Enter valid number")
+    console.log("Enter valid Number");
 }
-
-
 
 
 
