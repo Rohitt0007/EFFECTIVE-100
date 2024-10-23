@@ -216,22 +216,30 @@
 // }
 
 
-// 18- Accept three numbers and print the greatest among them
+// 18- Accept three numbers and print the greatest among them.
 
-let a = +prompt("Enter number A");
-let b = +prompt("Enter number B");
-let c = +prompt("Enter number C");
+// let a = +prompt("Enter number A");
+// let b = +prompt("Enter number B");
+// let c = +prompt("Enter number C");
 
-if(a > b && a > c){
-    console.log(`A is greater than B & C`);
-}else if(b > a && b > c){
-    console.log(`B is greater than A & C`);
-}else if(c > a && c > b){
-    console.log(`C is greater than A & B`);
+// if(a > b && a > c){
+//     console.log(`A is greater than B & C`);
+// }else if(b > a && b > c){
+//     console.log(`B is greater than A & C`);
+// }else if(c > a && c > b){
+//     console.log(`C is greater than A & B`);
+// }else{
+//     console.log("Enter valid Number");
+// }
+
+// 19- Accept a year and check if it a leap year or not (google to find out what's a leap year)
+
+let year = +prompt("Enter Year");
+if(year % 4 == 0 || year % 4 == 0 && year % 100 != 0){
+    console.log(`${year} this is leap year`)
 }else{
-    console.log("Enter valid Number");
+    console.log(`${year} it's not a leap year `)
 }
-
 
 
 
