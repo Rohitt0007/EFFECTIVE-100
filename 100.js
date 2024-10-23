@@ -172,14 +172,24 @@
 
 // 15- Accept an integer and check whether it is an even number or odd
 
-let num = +prompt("Enter number");
-if(num % 2 == 0){
-    console.log(`Number is Even ${num}`);
-}else if(num % 2 != 0){
-    console.log(`Number is Odd ${num}`);
+// let num = +prompt("Enter number");
+// if(num % 2 == 0){
+//     console.log(`Number is Even ${num}`);
+// }else if(num % 2 != 0){
+//     console.log(`Number is Odd ${num}`);
+// }
+
+// 16- Accept name and age from the user. Check if the user is a valid voter or not.
+//       Vaid - Hello Shery, You are a valid voter.
+
+let name = prompt("Enter Your Name");
+let age = +prompt("Enter Your Age");
+
+if(age > 18){
+    console.log(`Hello ${name} you are a valid voter`)
+}else if(age < 18){
+    console.log("Sorry you can't vote")
 }
-
-
 
 
 
