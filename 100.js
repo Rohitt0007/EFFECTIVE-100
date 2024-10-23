@@ -180,21 +180,40 @@
 // }
 
 // 16- Accept name and age from the user. Check if the user is a valid voter or not.
-//       Vaid - Hello Shery, You are a valid voter.
+//       Valid - Hello Shery, You are a valid voter.
 // Part 2 - Print after how many years the user will be eligible
 
-let name = prompt("Enter Your Name");
-let age = +prompt("Enter Your Age");
+// let name = prompt("Enter Your Name");
+// let age = +prompt("Enter Your Age");
 
-if(age > 18){
-    console.log(`Hello ${name} you are a valid voter`)
+// if(age > 18){
+//     console.log(`Hello ${name} you are a valid voter`)
+// }else{
+//     console.log(`Sorry ${name} you can't vote`)
+//     let wait = 18 - age;
+//     console.log(`You can vote after ${wait}`)
+// }
+
+// 17- Accept a day number between 1-7 and print the corresponding dayname.
+
+let day = +prompt("Enter days");
+if(day == 1){
+    console.log("Monday")
+}else if(day == 2){
+    console.log("Tuesday")
+}else if(day == 3){
+    console.log("Wednesday")
+}else if(day == 4){
+    console.log("Thursday")
+}else if(day == 5){
+    console.log("Friday")
+}else if(day == 6){
+    console.log("Satturday")
+}else if(day == 7){
+    console.log("Sunday")
 }else{
-    console.log(`Sorry ${name} you can't vote`)
-    let wait = 18 - age;
-    console.log(`You can vote after ${wait}`)
+    console.log("Enter valid number")
 }
-
-
 
 
 
