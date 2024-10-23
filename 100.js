@@ -181,14 +181,17 @@
 
 // 16- Accept name and age from the user. Check if the user is a valid voter or not.
 //       Vaid - Hello Shery, You are a valid voter.
+// Part 2 - Print after how many years the user will be eligible
 
 let name = prompt("Enter Your Name");
 let age = +prompt("Enter Your Age");
 
 if(age > 18){
     console.log(`Hello ${name} you are a valid voter`)
-}else if(age < 18){
-    console.log("Sorry you can't vote")
+}else{
+    console.log(`Sorry ${name} you can't vote`)
+    let wait = 18 - age;
+    console.log(`You can vote after ${wait}`)
 }
 
 
