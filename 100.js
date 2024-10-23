@@ -142,7 +142,7 @@
 // let b = +prompt("Enter number");
 
 // if(a > b ){
-//     console.log("a is greater than b", a);
+//     console.log("a is greater than b", a);.
 // }else if(b > a){
 //     console.log("b is greater than a", b);
 // }
@@ -170,7 +170,7 @@
 //     console.log("wrong Inputs");
 // }
 
-// / 15- Accept an integer and check whether it is an even number or odd.
+// 15- Accept an integer and check whether it is an even number or odd
 
 let num = +prompt("Enter number");
 if(num % 2 == 0){
