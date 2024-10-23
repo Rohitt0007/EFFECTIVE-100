@@ -161,18 +161,23 @@
 //       Print Good Morning sir for input m or M & Good morning Maam for input F or f 
 //       else print Wrong Input
 
-let gender = prompt("Enter your gender");
-if(gender == "m" || gender == "M"){
-    console.log("Good morning Sir");
-}else if(gender == "f" || gender == "F"){
-    console.log("Good morning MaM")
-}else{
-    console.log("wrong Inputs");
+// let gender = prompt("Enter your gender");
+// if(gender == "m" || gender == "M"){
+//     console.log("Good morning Sir");
+// }else if(gender == "f" || gender == "F"){
+//     console.log("Good morning MaM")
+// }else{
+//     console.log("wrong Inputs");
+// }
+
+// / 15- Accept an integer and check whether it is an even number or odd.
+
+let num = +prompt("Enter number");
+if(num % 2 == 0){
+    console.log(`Number is Even ${num}`);
+}else if(num % 2 != 0){
+    console.log(`Number is Odd ${num}`);
 }
-
-
-
-
 
 
 
